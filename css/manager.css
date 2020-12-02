@@ -1,0 +1,430 @@
+ /*Basic Css Start */
+
+.box-white{
+	border: 3px solid #fff;
+}
+.box-red{
+	border: 3px solid #ED1C24;
+}
+.box-yellow{
+	border: 3px solid #FFF200;
+}
+.box-darkblue{
+	border: 3px solid #2E3192;
+}
+.box-purple{
+	border: 3px solid #662D91;
+}
+.box-green{
+	border: 3px solid #00A651;
+}
+.box-dark{
+	border: 3px solid #414042;
+}
+.box-pantone{
+	border: 3px solid #C49A6C;
+}
+.box-cerise{
+	border: 3px solid #EC008C;
+}
+.box-blue{
+	border: 3px solid #00AEEF;
+}
+
+input[type='checkbox'] {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    z-index: 999;
+    margin: 8px 0px 0px -12px;
+}
+
+input[type='checkbox']:after {
+	content: "";
+	vertical-align: middle;
+	text-align: center;
+	line-height: 22px;
+	position: absolute;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	left: 0;
+	top: 0;
+	font-size: 15px;
+	
+}
+/* For Shop Page*/
+input#defaultCheck1.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #000000;
+    background: #ffffff;
+}
+input#defaultCheck2.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 5px -1px #ED1C24;
+    background: #ED1C24;
+}
+input#defaultCheck3.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #d6cb07;
+    background: #FFF200;
+}
+input#defaultCheck4.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #2E3192;
+    background: #2E3192;
+}
+input#defaultCheck5.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #ED1C24;
+    background: #ED1C24;
+}
+input#defaultCheck6.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #000000;
+    background: #ffffff;
+}
+input#defaultCheck7.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #00A651;
+    background: #00A651;
+}
+input#defaultCheck8.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #414042;
+    background: #414042;
+}
+input#defaultCheck9.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #000000;
+    background: #ffffff;
+}
+input#defaultCheck10.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #C49A6C;
+    background: #C49A6C;
+}
+input#defaultCheck11.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #EC008C;
+    background: #EC008C;
+}
+input#defaultCheck12.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #ED1C24;
+    background: #ED1C24;
+}
+input#defaultCheck13.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #662D91;
+    background: #662D91;
+}
+input#defaultCheck14.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #ED1C24;
+    background: #ED1C24;
+}
+input#defaultCheck15.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 6px 0px #00AEEF;
+    background: #00AEEF;
+}
+/* For Condition Page */
+.list-close-2{
+    margin-left: 126px !important;
+}
+.list-close-3{
+    margin-left: -17px !important;
+    margin-top: -27px !important;
+}
+.list-close-4{
+    margin-left: 82px !important;
+    margin-top: -26px !important;
+}
+.list-close-5{
+    margin-left: 82px !important;
+    margin-top: -26px !important;
+}
+.list-close-6{
+    margin-left: 163px !important;
+    margin-top: -26px !important;
+}
+.list-close-7{
+    margin-left: 129px !important;
+    margin-top: -26px !important;
+}
+.list-close-8{
+    margin-left: 58px !important;
+    margin-top: -26px !important;
+}
+input#listCheck1 {
+    margin-top: 32px;
+}
+input#listCheck2 {
+    margin-top: 32px;
+}
+input#listCheck3 {
+    margin-top: 32px;
+}
+input#listCheck4 {
+    margin-top: 32px;
+}
+.list-text-red{
+    color: #ED1C24;
+}
+.list-text-green{
+    color: #00A651;
+}
+.list-text-black{
+    color: #000000;
+}
+input#listCheck1.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 5px -1px #ED1C24;
+    background: #ED1C24;
+}
+input#listCheck2.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 5px -1px #00A651;
+    background: #00A651;
+}
+input#listCheck3.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 5px -1px #000000;
+    background: #ffffff;
+}
+input#listCheck4.form-check-input:after {
+    position: absolute;
+    box-shadow: 3px 3px 5px -1px #ED1C24;
+    background: #00A651;
+}
+
+input[type='checkbox']:checked:after {
+	background: #5F95FC;
+	content: '\2714';
+	color: #fff;
+}
+input#listCheck1:checked:after{
+    content: '';
+}
+input#listCheck2:checked:after{
+    content: '';
+}
+input#listCheck3:checked:after{
+    content: '';
+}
+input#listCheck4:checked:after{
+    content: '';
+}
+
+.manager-footer{
+	border-top: 1px solid #231F20;
+}
+.manager-footer p {
+    font-family: Open sans-serif;
+    font-size: 21px;
+    color: #000000;
+    text-align: right;
+    padding: 5px 20px 0px 0px;
+    margin: 0;
+}
+
+/* Basic Css End */
+
+/* Login From Css Start */
+#manager .manager-details{
+	width: 800px;
+	margin: 0 auto;
+	background-color: #D1D3D4;
+	padding: 10px 15px;
+}
+#manager .manager-details .login-logo {
+    text-align: center; 
+}
+#manager .manager-details .login-logo img{
+	padding: 100px 0;
+}
+#manager .login-form {
+    width: 470px;
+    margin: 0 auto;
+    height: 700px;
+}
+#manager .login-form .input-group {
+    padding: 0px 0px 15px 0px;
+}
+#manager .login-form .form-control {
+    height: 65px;
+    width: 470px;
+    color: #000;
+    font-size: 35px;
+    padding: 20px;
+}
+#manager .login-form .form-group .input-group-append {
+    display: inline-block;
+    float: right;
+    margin: -44px 20px 0px 0px;
+}
+#manager .login-form .form-group .input-group-append span img {
+    width: 13%;
+    float: right;
+    margin-top: 5px;
+}
+/* Login From Css End */
+
+/* Shop Page Css Start */
+#manager .manager-details .shop-header {
+    border-bottom: 1px solid #000;
+    margin: 0px 0px 38px 0px;
+}
+#manager .manager-details .shop-header .shop-header-text{
+	padding: 28px 0px 0px 15px;
+}
+#manager .manager-details .shop-header .shop-header-text h3 {
+    font-family: Open sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+#manager .manager-details .shop-header .shop-header-icon{
+	padding: 28px 15px 0px 40px;
+}
+#manager .manager-details .shop-header .shop-header-icon a img{
+	width: 100%;
+}
+#manager .manager-details .image-box{
+	width: 580px;
+    margin: 0 auto;
+}
+#manager .manager-details .image-box .form-check {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#manager .manager-details .image-box .form-check .form-check-label {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+#manager .manager-details .image-box .form-check .form-check-label .box-details p {
+    text-align: center;
+    padding: 60px 0px 35px 0px;
+    margin: 0;
+    font-family: Open sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+#manager .manager-details .image-box .form-check .form-check-label .box-details .box-time{
+	padding: 0px 0px 0px 95px;
+	font-family: Open sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+/* Shop Page Css End */
+
+/* Conditions Page Css Start */
+#manager .manager-details .manager-conditions {
+    background: #BCBEC0;
+    padding: 150px 100px;
+    position: relative;
+}
+
+.condition-close img {
+    width: 20%;
+    float: right;
+    opacity: 1 !important;
+}
+#manager .manager-details .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+#manager .manager-details .modal-header {
+    border: 0;
+    background-color: #BCBEC0;
+}
+#manager .manager-details .modal-body{
+    border: 0;
+    background-color: #BCBEC0;
+}
+#manager .manager-details .modal-body .conditions-area {
+    width: 565px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#manager .manager-details .modal-body .conditions-area .heading h2{
+    font-family: Open sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#manager .manager-details .modal-footer{
+    border: 0;
+    background-color: #BCBEC0;
+    text-align: center;
+}
+
+#manager .manager-details .modal-footer button {
+    border: 1px solid #231F20;
+    font-family: Open sans-serif;
+    font-size: 24px;
+    padding: 5px 40px;
+    margin-right: 40%;
+}
+
+#manager .manager-details .manager-conditions .conditions {
+    width: 530px;
+    background-color: #fff;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.button-save .btn-danger {
+    font-family: Open sans-serif;
+    font-size: 24px;
+    padding: 5px 40px;
+    border: 1px solid #231F20;
+}
+
+.conditions-list{
+    width: 580px;
+    margin: 0 auto;
+}
+.conditions-list .form-check {
+    margin-bottom: 25px;
+}
+.conditions-list .form-check .form-check-label {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.conditions-list .form-check .form-check-label .box-details p {
+    padding: 0px 0px 0px 45px;
+    font-family: Open sans-serif;
+    font-size: 48px;
+    display: inline-block;
+    margin-right: 20px;  
+}
+.conditions-list .form-check .form-check-label .box-details a img {
+    width: 8%;
+    margin: -15px 0px 0px 20px;
+}
+
+/* Conditions Page Css End 
+
+/* Responsive Css */
+@media (min-width: 700px) and (max-width: 900px) {
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+}
